@@ -16,11 +16,11 @@ const Card = (prop: Prop) => {
   const url = `${WALRUS_AGGREGATOR}/v1/${blob}`;
 
   const handleDownload = async () => {
-    await downloadFile(blob || "", blob || "", "application/png");
-    // const link = document.createElement("a");
-    // link.href = url;
-    // link.download = `${blob}.png`;
-    // link.click();
+    // await downloadFile(blob || "", blob || "", "application/png");
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `${blob}.png`;
+    link.click();
   };
 
   return (
