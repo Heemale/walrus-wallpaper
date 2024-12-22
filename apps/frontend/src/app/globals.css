@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom.css */
+.ant-message {
+    max-width: 80vw !important; /* 限制最大宽度 */
+}
+
+.ant-message-notice {
+    white-space: normal !important; /* 正常换行 */
+    word-break: break-word !important; /* 长单词换行 */
+}

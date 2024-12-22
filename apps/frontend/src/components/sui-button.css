@@ -1,0 +1,75 @@
+@media screen and (max-width:770px) {
+    [data-dapp-kit].Button_buttonVariants_size_lg__x1s81q4,
+    [data-dapp-kit] .Button_buttonVariants_size_lg__x1s81q4 {
+        padding: 8px 16px;
+    }
+    [data-dapp-kit].Button_buttonVariants_variant_primary__x1s81q1,
+    [data-dapp-kit] .Button_buttonVariants_variant_primary__x1s81q1 {
+        /*background-image: url(/button_bg.png);*/
+        background: linear-gradient(to right, #40cafd, #1993ee);
+        border-radius: 0.5rem;
+        color: #fff;
+    }
+    [data-dapp-kit].Text_textVariants_weight_bold__2bv1ur4,
+    [data-dapp-kit] .Text_textVariants_weight_bold__2bv1ur4 {
+        color: #fff;
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    [data-dapp-kit].Button_buttonVariants_variant_primary__x1s81q1:hover,
+    [data-dapp-kit] .Button_buttonVariants_variant_primary__x1s81q1:hover {
+        /*background-image: url(/button_bg.png);*/
+        background: linear-gradient(to right, #40cafd, #1993ee);
+        border-radius: 0.5rem;
+    }
+    [data-dapp-kit].Text_textVariants_mono_true__2bv1ur7,
+    [data-dapp-kit] .Text_textVariants_mono_true__2bv1ur7 {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    [data-dapp-kit].AccountDropdownMenu_menuContent__div2ql2,
+    [data-dapp-kit] .AccountDropdownMenu_menuContent__div2ql2{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+}
+
+@media screen and (min-width:770px) {
+    [data-dapp-kit].Button_buttonVariants_size_lg__x1s81q4,
+    [data-dapp-kit] .Button_buttonVariants_size_lg__x1s81q4 {
+        padding: 10px 18px;
+    }
+    [data-dapp-kit].Button_buttonVariants_variant_primary__x1s81q1,
+    [data-dapp-kit] .Button_buttonVariants_variant_primary__x1s81q1 {
+        /*background-image: url(/button_bg.png);*/
+        background: linear-gradient(to right, #40cafd, #1993ee);
+        border-radius: 0.5rem;
+        color: white;
+    }
+    [data-dapp-kit].Text_textVariants_weight_bold__2bv1ur4,
+    [data-dapp-kit] .Text_textVariants_weight_bold__2bv1ur4 {
+        color: black;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+    [data-dapp-kit].Button_buttonVariants_variant_primary__x1s81q1:hover,
+    [data-dapp-kit] .Button_buttonVariants_variant_primary__x1s81q1:hover {
+        /*background-image: url(/button_bg.png);*/
+        background: linear-gradient(to right, #40cafd, #1993ee);
+        border-radius: 0.5rem;
+    }
+    [data-dapp-kit].Text_textVariants_mono_true__2bv1ur7,
+    [data-dapp-kit] .Text_textVariants_mono_true__2bv1ur7 {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    [data-dapp-kit].AccountDropdownMenu_menuContent__div2ql2,
+    [data-dapp-kit] .AccountDropdownMenu_menuContent__div2ql2{
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+}

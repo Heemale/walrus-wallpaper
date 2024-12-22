@@ -1,0 +1,60 @@
+{
+	"name": "@local/wallpaper-sdk",
+	"author": "",
+	"description": "Wallpaper SDK",
+	"version": "1.0.0",
+	"license": "Apache-2.0",
+	"type": "commonjs",
+	"main": "./dist/cjs/index.js",
+	"module": "./dist/esm/index.js",
+	"types": "./dist/cjs/index.d.ts",
+	"exports": {
+		"./wallpaper": {
+			"import": "./dist/esm/wallpaper/index.js",
+			"require": "./dist/cjs/wallpaper/index.js"
+		},
+		"./types": {
+			"import": "./dist/esm/types/index.js",
+			"require": "./dist/cjs/types/index.js"
+		},
+		"./utils": {
+			"import": "./dist/esm/utils/index.js",
+			"require": "./dist/cjs/utils/index.js"
+		}
+	},
+	"files": [
+		"CHANGELOG.md",
+		"dist",
+		"src",
+		"types",
+		"utils",
+		"wallpaper"
+	],
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"build": "build-package",
+		"format": "prettier --write \"src/**/*.ts\"",
+		"test": "jest"
+	},
+	"keywords": [],
+	"dependencies": {
+		"@mysten/sui": "^1.14.0"
+	},
+	"devDependencies": {
+		"@iarna/toml": "^2.2.5",
+		"@local/build-scripts": "workspace:*",
+		"@types/jest": "^29.5.2",
+		"@types/node": "^20.14.10",
+		"jest": "^29.5.0",
+		"tmp": "^0.2.3",
+		"ts-jest": "^29.1.0",
+		"ts-node": "^10.9.2",
+		"ts-retry-promise": "^0.8.1",
+		"typescript": "^5.5.3",
+		"vite": "^5.3.3",
+		"vitest": "^2.0.1",
+		"wait-on": "^7.2.0"
+	}
+}

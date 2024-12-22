@@ -1,0 +1,7 @@
+packages:
+  - 'apps/*'
+  - 'contracts/*'
+  - 'sdk/*'
+  - '!sdk\wallpaper-sdk\wallpaper'
+  - '!sdk\wallpaper-sdk\types'
+  - '!sdk\wallpaper-sdk\utils'
